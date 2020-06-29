@@ -5,5 +5,5 @@ Lista de comandos úteis.
 1. Abrir Developer Command Prompt for VS 20xx (versão do visual studio)
 2. Executar o comando
 ```
-svcutil http://locahost/service.svc /Language=c# /t:Code /ct:System.Collections.Generic.List`1 /n:*,namespace123 /out:ServiceName.cs /config:ServiceName.config 
+svcutil http://locahost/service.svc /Language=c# /t:Code /ct:System.Collections.Generic.List`1 /out:ServiceName.cs /config:ServiceName.config 
 ```
